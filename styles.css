@@ -66,3 +66,10 @@ a {
 .link:hover::before {
     width: 100%;
 }
+
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
