@@ -228,3 +228,33 @@ a {
     border-color: white;
 }
 
+
+.choices {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.content-section:hover {
+    transform: scale(1.02);
+}
+
+.content-section h1, .content-section h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.content-section p {
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.6;
+}
