@@ -20,14 +20,14 @@ nav {
     height: auto;
 }
 
-ul {
+nav ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-right: 20px;
 }
 
-a {
+nav a {
     font-family: Poppins;
     font-size: 12px;
     text-decoration: none;
@@ -313,16 +313,36 @@ article p {
     margin-bottom: 10px;
 }
 
+.references-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.references-content h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.references-box {
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
 .references-list {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 40px;
     width: 100%;
-    display: block;
 }
 
 .references-list li {
-    display: list-item;
-    display: block;
     margin-bottom: 15px;
     font-size: 1em;
     line-height: 1.6;
@@ -337,3 +357,61 @@ article p {
 .references-list li a:hover {
     text-decoration: underline;
 }
+
+
+.meeting-minutes-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.meeting-section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.meeting-section h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.meeting {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.meeting h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.meeting ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.meeting ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.meeting li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.meeting li strong {
+    font-weight: 600;
+}
+
+
