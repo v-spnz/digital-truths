@@ -124,6 +124,7 @@ nav a {
     padding: 40px 20px 10px;
     background-color: #f4f4f4;
     border-bottom: 2px solid #222;
+    padding-right: 100px;
 }
 
 .title-block {
@@ -311,6 +312,10 @@ article p {
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 10px;
+}
+
+.pink-header {
+    color: #e52e71;
 }
 
 .references-content {
