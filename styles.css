@@ -314,6 +314,34 @@ article p {
     margin-bottom: 10px;
 }
 
+.image-figure {
+    float: right;
+    margin-left: 20px;
+    max-width: 350px;
+    padding-top: 25px;
+}
+
+.image-figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.image-figure figcaption {
+    margin-top: 10px;
+    padding-bottom: 50px;
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+}
+
+.text-content {
+    overflow: hidden; 
+}
+
+
+
 .pink-header {
     color: #e52e71;
 }
@@ -331,6 +359,12 @@ article p {
     font-size: 2em;
 }
 
+.references-content h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+}
+
 .references-box {
     background: #f4f4f4;
     border-radius: 10px;
@@ -339,6 +373,7 @@ article p {
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
+    margin-bottom: 25px;
 }
 
 .references-list {
